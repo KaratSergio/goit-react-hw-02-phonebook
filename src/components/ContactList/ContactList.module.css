@@ -1,0 +1,27 @@
+.list {
+  background: linear-gradient(to right, var(--contact-list-bg), var(--white));
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deleteButton {
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  box-shadow: var(--shadow-btn-box);
+  text-shadow: var(--shadow-btn-txt);
+}
+
+.deleteButton:hover {
+  background-color: var(--red-accent);
+}
