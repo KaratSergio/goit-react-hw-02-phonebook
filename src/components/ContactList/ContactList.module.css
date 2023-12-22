@@ -1,11 +1,12 @@
 .list {
-  background: linear-gradient(to right, var(--contact-list-bg), var(--white));
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 
 .item {
+  height: 25px;
+  background: linear-gradient(to right, var(--contact-list-bg), var(--white));
   display: flex;
   justify-content: space-between;
   align-items: center;
